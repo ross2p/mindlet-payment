@@ -1,8 +1,7 @@
 import { Module } from '@nestjs/common';
+import { CommonModule } from '@ross2p/common';
 
 @Module({
-  imports: [],
-  controllers: [],
-  providers: [],
+  imports: [CommonModule],
 })
 export class AppModule {}
